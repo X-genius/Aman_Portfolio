@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.contactHeading
+{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.contactUsFormContainer
+{
+    background: #131313;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 80vh;
+    margin: 80px auto;
+}
+
+input[type=text],[type = email], select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    outline: none;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  textarea
+  {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+    outline: none;
+    height: 200px;
+  }
+
+  .nameHeading , .emailHeading, .msgHeading
+  {
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+  }
+
+  @media screen and (max-width : 320px)
+  {
+    .contactHeading
+    {
+        font-size: 35px;
+    }
+
+    .contactUsFormContainer
+    {
+      width: 80%;
+      height: 85vh;
+      margin: 40px auto;
+      overflow: hidden;
+   }
+
+   input[type=text],[type = email], select {
+     
+      margin-top: 8px;
+      margin-bottom: 16px;
+  
+    }
+    
+
+   textarea
+   {
+  
+      margin-top: 8px;
+      margin-bottom: 16px;
+      height: 180px;
+   }
+
+  }
+  @media screen and (max-width: 768px)
+  {
+      .contactHeading
+      {
+          font-size: 35px;
+      }
+
+      .contactUsFormContainer
+      {
+        width: 80%;
+        height: 85vh;
+        margin: 40px auto;
+     }
+
+     input[type=text],[type = email], select {
+       
+        margin-top: 8px;
+        margin-bottom: 16px;
+    
+      }
+      
+
+     textarea
+     {
+    
+        margin-top: 8px;
+        margin-bottom: 16px;
+        height: 180px;
+     }
+
+  }
+
+  

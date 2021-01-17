@@ -1,0 +1,68 @@
+.ProjectContainer
+{
+    width : 100%;
+    height : 130vh;
+    background: #131313;
+    padding: 0;
+    margin: 0;
+}
+
+.projectName
+{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.rhImage , .farmerImage, .sweetImage , .automationImage
+{
+    width : 450px;
+    height: 300px;
+    box-shadow: 2px 4px 6px 10px #fff;
+}
+
+.rowProject
+ {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+  
+  .rowProject::after
+   {
+    display: table;
+    clear: both; 
+}
+
+.col-4-Project
+{
+    width: 33.33%;
+    padding: 60px 20px;
+}
+
+.col-12-Project
+{
+    width : 100%;
+    padding: 0px 525px;
+}
+
+@media screen and (max-width : 768px)
+{
+    .ProjectContainer
+    {
+        height : 250vh;
+    }
+
+    .col-4-Project
+    {
+        width : 100%;
+    }
+
+    .col-12-Project{
+        padding-left: 20px;
+    }
+}

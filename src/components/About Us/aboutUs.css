@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+.aboutContainer
+{
+    background: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutUS
+{
+    font-size: 60px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.rowContainer
+ {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+  
+  .rowContainer::after
+   {
+    display: table;
+    clear: both; 
+}
+
+.colFourContainer
+{
+    width : 33.33%;
+}
+
+.imgContainer
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid;
+    padding: 5px;
+    box-shadow: 5px 10px #888888;
+    
+}
+
+.nameStyle
+{
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.colEightContainer
+{
+    width: 66.66%;
+}
+
+.IntroParagraph
+{
+    font-size: 25px;
+    margin-bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width : 768px)
+{
+    .aboutUS
+    {
+       font-size: 30px;
+    }
+
+    .colFourContainer
+    {
+        width: 100%;
+    }
+
+    .colEightContainer
+    {
+        width: 100%;
+    }
+
+    .IntroParagraph
+    {
+       font-size: 15px;
+       margin-bottom: 40px;
+       text-align: center;
+       padding-left: 40px ;
+       padding-right: 40px;
+   }
+
+}
