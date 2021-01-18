@@ -7,14 +7,14 @@ import Skills from "./components/Skills/skill";
 import Projects from "./components/Projects/Project";
 function App() {
   return (
-    <>
+    <div className = "wrapper">
     <Navbar />
     <AboutUs/>
     <Skills/>
     <Projects/>
     <ContactUs/>
     <Footer/>
-    </>
+    </div>
   );
 }
 

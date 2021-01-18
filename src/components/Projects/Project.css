@@ -1,68 +1,57 @@
-.ProjectContainer
-{
-    width : 100%;
-    height : 130vh;
-    background: #131313;
-    padding: 0;
-    margin: 0;
+.ProjectContainer {
+  width: 100%;
+  /* height: 130vh; */
+  background: #131313;
+  padding: 30px 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-.projectName
-{
-    font-size: 60px;
-    text-align: center;
-    padding-top: 40px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fff;
+.projectName {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 30px 0;
 }
 
-.rhImage , .farmerImage, .sweetImage , .automationImage
-{
-    width : 450px;
-    height: 300px;
-    box-shadow: 2px 4px 6px 10px #fff;
+.rhImage,
+.farmerImage,
+.sweetImage,
+.automationImage {
+  width: 420px;
+  height: 300px;
 }
 
-.rowProject
- {
-    display: flex;
+.rowProject {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-4-Project {
+  margin: 20px;
+  box-shadow: 2px 4px 6px 10px #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .rowProject {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .col-4-Project {
+    width: 95%;
+    margin: 20px 0;
+  }
+  .rhImage,
+  .farmerImage,
+  .sweetImage,
+  .automationImage {
     width: 100%;
-    flex-wrap: wrap;
-    align-items: center; 
-}
-  
-  .rowProject::after
-   {
-    display: table;
-    clear: both; 
-}
-
-.col-4-Project
-{
-    width: 33.33%;
-    padding: 60px 20px;
-}
-
-.col-12-Project
-{
-    width : 100%;
-    padding: 0px 525px;
-}
-
-@media screen and (max-width : 768px)
-{
-    .ProjectContainer
-    {
-        height : 250vh;
-    }
-
-    .col-4-Project
-    {
-        width : 100%;
-    }
-
-    .col-12-Project{
-        padding-left: 20px;
-    }
+    height: 300px;
+  }
 }
