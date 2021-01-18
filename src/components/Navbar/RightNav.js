@@ -30,22 +30,24 @@ const Ul = styled.ul`
   }
 `;
 
-const RightNav = ({ open }) => {
+const RightNav = (props) => {
+  const {open , setOpen} = props;
+
   Aos.init({ duration: 1000, offset: 150 });
 
   return (
     <Ul open={open}>
       <li data-aos="fade-up-left" data-aos-offset="50">
-        <a href="#About">About Us</a>
+        <a href="#About" onClick={() => setOpen(!open)}>About Us</a>
       </li>
       <li data-aos="fade-up" data-aos-offset="50">
-        <a href="#skills">Skills</a>
+        <a href="#skills" onClick={() => setOpen(!open)}>Skills</a>
       </li>
       <li data-aos="fade-down" data-aos-offset="50">
-        <a href="#Projects">Projects</a>
+        <a href="#Projects" onClick={() => setOpen(!open)}>Projects</a>
       </li>
       <li data-aos="fade-up-right" data-aos-offset="50">
-        <a href="#contactUs">Contact Us</a>
+        <a href="#contactUs" onClick={() => setOpen(!open)}>Contact Us</a>
       </li>
     </Ul>
   );
