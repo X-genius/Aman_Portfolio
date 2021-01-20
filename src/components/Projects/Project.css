@@ -1,6 +1,5 @@
 .ProjectContainer {
   width: 100%;
-  /* height: 130vh; */
   background: #131313;
   padding: 30px 0;
   margin: 0;
@@ -38,6 +37,67 @@
   box-shadow: 2px 4px 6px 10px #fff;
 }
 
+.flip-box {
+  background-color: transparent;
+  width: 420px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 90px 0px;
+}
+
+.LinksOfProject{
+  height: 40px;
+  width: 90px;
+  text-align: center;
+  background-color: coral;
+  margin: 20px auto;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.LinksOfProject a{
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   .rowProject {
     flex-direction: column;
@@ -51,6 +111,12 @@
   .farmerImage,
   .sweetImage,
   .automationImage {
+    width: 100%;
+    height: 300px;
+  }
+
+  .flip-box {
+    background-color: transparent;
     width: 100%;
     height: 300px;
   }
