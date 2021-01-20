@@ -33,12 +33,14 @@ const Project = () => {
                 </div>
 
                 <div class="flip-box-back">
+                  <div>
                   <h2>RH+</h2>
                   <p>This Project help for needy person who want to blood and minimum cost of time.</p>
                   <div className = "LinksOfProject">
                   <a href="https://rhpositive.herokuapp.com/" >
                     view
                 </a>
+                </div>
                 </div>
                 </div>
                </div>
@@ -64,6 +66,7 @@ const Project = () => {
                 </div>
 
                 <div class="flip-box-back">
+                  <div>
                   <h2>KrishiUdhaan</h2>
                   <p>This Project based on farming culture, This project help to remove intermediators and farmer sell his/her crop
                     at actual money.
@@ -72,6 +75,7 @@ const Project = () => {
                   <a href="https://x-genius.github.io/KrishiUdhaan/">
                      view
                  </a> 
+                </div>
                 </div>
                 </div>
                </div>
@@ -93,6 +97,7 @@ const Project = () => {
                 </div>
 
                 <div class="flip-box-back">
+                  <div>
                   <h2>My Sweet Shop</h2>
                   <p>This project provide simple and decent sweet shop look.
                   </p>
@@ -100,6 +105,7 @@ const Project = () => {
                   <a href="https://x-genius.github.io/sweet/">
                    view
                  </a> 
+                </div>
                 </div>
                 </div>
                </div>
@@ -131,6 +137,7 @@ const Project = () => {
                 </div>
 
                 <div class="flip-box-back">
+                  <div>
                   <h2>Automation Projects</h2>
                   <p>Provide github Link , In this Link three automation project available. These automation projects are
                     Automailer , Automated Piano , youtube to mp3 converter.
@@ -140,6 +147,7 @@ const Project = () => {
                   <a href="https://github.com/X-genius?tab=repositories">
                     view
                  </a>
+                </div>
                 </div>
                 </div>
                </div>
