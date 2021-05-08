@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebookSquare , FaGithub , FaLinkedinIn , FaInstagram} from 'react-icons/fa';
+import {FaFacebookSquare , FaGithub , FaLinkedinIn , FaInstagram , FaCode} from 'react-icons/fa';
 import styled from 'styled-components';
 import './Footer.css';
 import Aos from 'aos';
@@ -24,6 +24,23 @@ cursor : pointer;
 `;
 
 const FaLinkedin = styled(FaLinkedinIn)`
+color : #fff;
+height : 50px;
+width : 50px;
+padding : 0px 5px 0px 5px;
+margin: 0px 10px;
+
+&:hover
+    {
+      color: #000000;
+      background: #3cdce7;
+      transform: scale(0.9);
+      transition: 0.4s ease-out;
+    }
+
+`;
+
+const FaCoding = styled(FaCode)`
 color : #fff;
 height : 50px;
 width : 50px;
@@ -93,6 +110,10 @@ const Footer = () => {
                         <div data-aos = "fade-up" data-aos-delay="300" data-aos-offset = "50">
                         <a href = "https://www.linkedin.com/in/aman-baghel-56467518b/">      
                              <FaLinkedin /> </a></div>
+
+                             <div data-aos = "zoom-in" data-aos-delay="300" data-aos-offset = "50">
+                        <a href = "https://www.codechef.com/users/amuninja1">      
+                             <FaCoding /> </a></div>
 
                         <div data-aos = "fade-down" data-aos-delay="600" data-aos-offset = "50">
                         <a href = "https://github.com/X-genius" >      
