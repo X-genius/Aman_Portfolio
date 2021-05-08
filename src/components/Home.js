@@ -175,7 +175,7 @@ const Home = () => {
                         Frontend enthusiastic and Java Developer
                     </motion.p>
                     
-                    <a href = {pdf} download = "aman_resume">
+                    <a href = {pdf} download = "Aman_SDE_Fresher">
                     <Button
                      whileHover = {{scale : 1.05}} 
                      whileTap = {{scale : 0.95 , backgroundColor : '#67F6E7' , color : '#000' , border : 'none' }}
