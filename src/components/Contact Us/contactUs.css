@@ -109,7 +109,7 @@ input[type=text],[type = email], select {
       .contactUsFormContainer
       {
         width: 80%;
-        height: 85vh;
+        /* height: 85vh; */
         margin: 40px auto;
      }
 
