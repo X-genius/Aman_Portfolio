@@ -95,7 +95,7 @@ input[type=text],[type = email], select {
   
       margin-top: 8px;
       margin-bottom: 16px;
-      height: 180px;
+      /* height: 180px; */
    }
 
   }
@@ -126,7 +126,7 @@ input[type=text],[type = email], select {
     
         margin-top: 8px;
         margin-bottom: 16px;
-        height: 180px;
+        /* height: 180px; */
      }
 
   }
