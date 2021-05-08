@@ -27,11 +27,9 @@ const aboutUs = () => {
                            <p className = "IntroParagraph"
                            data-aos="fade-right"
                            data-aos-offset="300"
-                           data-aos-easing="ease-in-sine">Hello! Aman this side, I'm frontend enthusiastic as well as java Developer.
-                           I'm pursuing Bachelor of Technology from Guru tegh bahadur institute of technology. I'm working on some technology stuffs
-                           like <strong>Html , CSS , Bootstrap , Reactjs , Java</strong> and also improving score card in Data Structures working on some 
-                           platforms like <strong>Leetcode , GeeksForGeeks.</strong></p>
-                    </div>
+                           data-aos-easing="ease-in-sine">Hello! Aman this side, I'm pursuing Bachelor of Technology from Guru Tegh Bahadur Institute of Technology with good aggregate up to 85.64%. I'm <strong>Frontend</strong> and <strong>Data Structure</strong> Enthusiast and Beginner in <strong>Competitive Coding</strong>. I'm working
+                           with the <strong>Supercharge</strong> firm as a <strong>Full Stack Web Developer</strong>.</p>
+                    </div> 
                 </div>
             </div>
         </div>
