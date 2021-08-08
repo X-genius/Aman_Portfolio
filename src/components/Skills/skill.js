@@ -45,12 +45,12 @@ const Skill = () => {
         <div data-aos = "fade-up-left">
         <h2 className = "LanguageName">Javascript</h2>
         <div className = "progressBar">
-            <ProgressBar bgColor={"#fed123"} completed={60}/>
+            <ProgressBar bgColor={"#fed123"} completed={80}/>
         </div>
         </div>
 
         <div data-aos = "fade-up-right">
-        <h2 className = "LanguageName">Selenium</h2>
+        <h2 className = "LanguageName">SQL</h2>
         <div className = "progressBar">
             <ProgressBar bgColor={"green"} completed={80}/>
         </div>
@@ -59,7 +59,7 @@ const Skill = () => {
         <div data-aos = "zoom-in">
         <h2 className = "LanguageName">ReactJS</h2>
         <div className = "progressBar">
-            <ProgressBar bgColor={"#612abc"} completed={60}/>
+            <ProgressBar bgColor={"#612abc"} completed={75}/>
         </div>
         </div>
 
