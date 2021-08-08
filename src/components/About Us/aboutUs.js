@@ -27,8 +27,13 @@ const aboutUs = () => {
                            <p className = "IntroParagraph"
                            data-aos="fade-right"
                            data-aos-offset="300"
+<<<<<<< HEAD
                            data-aos-easing="ease-in-sine">Hello! Aman this side, I have completed my Bachelor of Technology from Guru Tegh Bahadur Institute of Technology with good aggregate up to 86.77%. I'm <strong>Frontend</strong> and <strong>Data Structure</strong> Enthusiast and Beginner in <strong>Competitive Coding</strong>. I have 3 month of
                            experience as a <strong>Full Stack Web Developer</strong> at <strong>Supercharge</strong>.</p>
+=======
+                           data-aos-easing="ease-in-sine">Hello! Aman this side, I'm pursuing Bachelor of Technology from Guru Tegh Bahadur Institute of Technology with good aggregate up to 86.77%. I'm <strong>Frontend</strong> and <strong>Data Structure</strong> Enthusiast and Beginner in <strong>Competitive Coding</strong>. I done my 3 month
+                           internship with the <strong>Supercharge</strong> firm as a <strong>Full Stack Web Developer</strong>.</p>
+>>>>>>> c82be6ef9790b65e244eead74dd005029edb6d07
                     </div> 
                 </div>
             </div>
