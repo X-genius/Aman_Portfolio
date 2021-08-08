@@ -172,7 +172,8 @@ const Home = () => {
                     initial = "hidden" 
                     animate = "visible" 
                     transition = {{duration : 1}}>
-                        Frontend enthusiastic and Java Developer
+                        Frontend enthusiast 
+                        and Java Developer
                     </motion.p>
                     
                     <a href = {pdf} download = "Aman_SDE_Fresher">
