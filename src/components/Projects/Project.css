@@ -19,7 +19,7 @@
 .farmerImage,
 .sweetImage,
 .automationImage, .BlogImage,
-.complaintImage{
+.complaintImage , .SquidGameImage{
   width: 420px;
   height: 300px;
 }
@@ -128,7 +128,8 @@
   .sweetImage,
   .automationImage, 
   .BlogImage,
-  .complaintImage {
+  .complaintImage,
+  .SquidGameImage {
     width: 100%;
     height: 300px;
   }

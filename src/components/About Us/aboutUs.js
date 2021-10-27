@@ -28,7 +28,7 @@ const aboutUs = () => {
                            data-aos="fade-right"
                            data-aos-offset="300"
                            data-aos-easing="ease-in-sine">Hello! Aman this side, I have completed my Bachelor of Technology from Guru Tegh Bahadur Institute of Technology with good aggregate up to 86.77%. I'm <strong>Frontend</strong> and <strong>Data Structure</strong> Enthusiast and Beginner in <strong>Competitive Coding</strong>. I have 3 month of
-                           experience as a <strong>Full Stack Web Developer</strong> at <strong>Supercharge</strong> and currently work in <strong>Hughes Systique Corporation</strong> as a <strong>Associate Software Engineer</strong>. </p>
+                           experience as a <strong>Full Stack Web Developer</strong> at <strong>Supercharge</strong> and currently working in <strong>Hughes Systique Corporation</strong> as a <strong>Associate Software Engineer</strong>. </p>
                     </div> 
                 </div>
             </div>

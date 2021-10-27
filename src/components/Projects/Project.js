@@ -5,6 +5,7 @@ import SweetImage from "../../images/sweet-shop-image.jpg";
 import AutomationImage from "../../images/Automation-Testing.jpg";
 import BlogWebsite from "../../images/BlogWebsite.jpg";
 import ComplaintImage from "../../images/complaint.jpg";
+import SquidGameImage from "../../images/red_light_game.jpg";
 import "./Project.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -181,6 +182,33 @@ const Project = () => {
                   </p>
                   <div className = "LinksOfProject">
                   <a href="https://complaintbox.netlify.app/">
+                   view
+                 </a> 
+                </div>
+                </div>
+                </div>
+               </div>
+             </div>
+          </div>
+
+          <div
+            className="col-4-Project"
+            data-aos="zoom-in"
+            data-aos-offset="50"
+          >
+              <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                <img src={SquidGameImage} className="r" alt="imageSquidGame" />
+                </div>
+
+                <div class="flip-box-back">
+                  <div>
+                  <h2>Squid Game</h2>
+                  <p>This project create for entertainment purpose. If you free you play a red light green light game.
+                  </p>
+                  <div className = "LinksOfProject">
+                  <a href="https://x-genius.github.io/squid_game/">
                    view
                  </a> 
                 </div>
