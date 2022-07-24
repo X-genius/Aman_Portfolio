@@ -176,7 +176,7 @@ const Home = () => {
                         Developer
                     </motion.p>
                     
-                    <a href = {pdf} download = "Aman_SDE_Fresher">
+                    <a href = {pdf} download = "AmanBaghel_Resume">
                     <Button
                      whileHover = {{scale : 1.05}} 
                      whileTap = {{scale : 0.95 , backgroundColor : '#67F6E7' , color : '#000' , border : 'none' }}
