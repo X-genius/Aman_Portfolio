@@ -6,6 +6,7 @@ import AutomationImage from "../../images/Automation-Testing.jpg";
 import BlogWebsite from "../../images/BlogWebsite.jpg";
 import ComplaintImage from "../../images/complaint.jpg";
 import SquidGameImage from "../../images/red_light_game.jpg";
+import EcommerceWebImage from "../../images/ecommerce_website.png";
 import "./Project.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -209,6 +210,33 @@ const Project = () => {
                   </p>
                   <div className = "LinksOfProject">
                   <a href="https://x-genius.github.io/squid_game/">
+                   view
+                 </a> 
+                </div>
+                </div>
+                </div>
+               </div>
+             </div>
+          </div>
+
+          <div
+            className="col-4-Project"
+            data-aos="fade-up-left"
+            data-aos-offset="50"
+          >
+              <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                <img src={EcommerceWebImage} className="EcommerceWebImage" alt="imageEcommerceWeb" />
+                </div>
+
+                <div class="flip-box-back">
+                  <div>
+                  <h2>Ecommerce Website</h2>
+                  <p>Building an Ecommerce Website to provide interaction between Buyers, Sellers and Admin.
+                  </p>
+                  <div className = "LinksOfProject">
+                  <a href="https://mern-stack-mybazaar-app.herokuapp.com/">
                    view
                  </a> 
                 </div>
