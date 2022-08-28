@@ -7,6 +7,7 @@ import BlogWebsite from "../../images/BlogWebsite.jpg";
 import ComplaintImage from "../../images/complaint.jpg";
 import SquidGameImage from "../../images/red_light_game.jpg";
 import EcommerceWebImage from "../../images/ecommerce_website.png";
+import WeatherImage from '../../images/weather_app_image.png';
 import "./Project.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -237,6 +238,33 @@ const Project = () => {
                   </p>
                   <div className = "LinksOfProject">
                   <a href="https://mern-stack-mybazaar-app.herokuapp.com/">
+                   view
+                 </a> 
+                </div>
+                </div>
+                </div>
+               </div>
+             </div>
+          </div>
+
+          <div
+            className="col-4-Project"
+            data-aos="fade-up-right"
+            data-aos-offset="50"
+          >
+              <div class="flip-box">
+              <div class="flip-box-inner">
+                <div class="flip-box-front">
+                <img src={WeatherImage} className="WeatherImage" alt="imageWeatherWeb" />
+                </div>
+
+                <div class="flip-box-back">
+                  <div>
+                  <h2>Weather Application</h2>
+                  <p>Building an Weather Application. Which helps to check weather condition in all cities, states and countries
+                  </p>
+                  <div className = "LinksOfProject">
+                  <a href="https://weather-checker-application-net.netlify.app/">
                    view
                  </a> 
                 </div>
