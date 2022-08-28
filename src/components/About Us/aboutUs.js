@@ -27,7 +27,7 @@ const aboutUs = () => {
                            <p className = "IntroParagraph"
                            data-aos="fade-right"
                            data-aos-offset="300"
-                           data-aos-easing="ease-in-sine">Hello! Aman this side, I have completed my Bachelor of Technology from Guru Tegh Bahadur Institute of Technology with good aggregate up to 87.95%. I'm <strong>Frontend</strong> and <strong>Data Structure</strong> Enthusiast. I have <strong>1 year and 3 months of
+                           data-aos-easing="ease-in-sine">Hello! Aman this side, I have completed my Bachelor of Technology from Guru Tegh Bahadur Institute of Technology with good aggregate up to 87.95%. I'm <strong>Frontend</strong> and <strong>Data Structure</strong> Enthusiast. I have <strong>1 year and 4 months of
                            experience</strong> as a <strong>Software Engineer</strong> and currently working in <strong>Stanza Living</strong> as a <strong>SDE - 1</strong>. </p>
                     </div> 
                 </div>
