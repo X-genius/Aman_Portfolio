@@ -3,7 +3,7 @@
     background: #131313;
     margin : 0;
     padding : 0;
-    height: 160vh;
+    height: 280vh;
     width: 100%;
 }
 
@@ -32,7 +32,7 @@
 {
     .progressContainer
     {
-        height: 160vh;
+        height: 230vh;
         width: 100%;
     }
 
@@ -46,7 +46,7 @@
 {
     .progressContainer
     {
-        height: 170vh;
+        height: 240vh;
         width: 100%;
     }
 }

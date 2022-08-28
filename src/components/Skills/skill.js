@@ -14,6 +14,13 @@ const Skill = () => {
             <h1 className = "skillName">Skills</h1>
             </div>
 
+        <div data-aos = "zoom-out">
+        <h2 className = "LanguageName">C++</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"#00695c"} completed={65}/>
+        </div>
+        </div>
+
         <div data-aos = "zoom-in">
         <h2 className = "LanguageName">Java</h2>
         <div className = "progressBar">
@@ -21,17 +28,10 @@ const Skill = () => {
         </div>
         </div>
 
-        <div data-aos = "zoom-out">
-        <h2 className = "LanguageName">C++</h2>
-        <div className = "progressBar">
-            <ProgressBar bgColor={"#00695c"} completed={75}/>
-        </div>
-        </div>
-
         <div data-aos = "fade-up-right">
         <h2 className = "LanguageName">Html</h2>
         <div className = "progressBar">
-            <ProgressBar bgColor={"#106cde"} completed={85}/>
+            <ProgressBar bgColor={"#106cde"} completed={80}/>
         </div>
         </div>
 
@@ -43,26 +43,68 @@ const Skill = () => {
         </div>
 
         <div data-aos = "fade-up-left">
+        <h2 className = "LanguageName">Bootstrap</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"#123def"} completed={80}/>
+        </div>
+        </div>
+
+
+        <div data-aos = "fade-up-left">
         <h2 className = "LanguageName">Javascript</h2>
         <div className = "progressBar">
-            <ProgressBar bgColor={"#fed123"} completed={80}/>
+            <ProgressBar bgColor={"#fed123"} completed={70}/>
+        </div>
+        </div>
+
+        <div data-aos = "zoom-in">
+        <h2 className = "LanguageName">ReactJS</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"#612abc"} completed={65}/>
+        </div>
+        </div>
+
+        <div data-aos = "fade-up-left">
+        <h2 className = "LanguageName">Node.js</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"#612abc"} completed={70}/>
+        </div>
+        </div>
+
+        <div data-aos = "fade-up-left">
+        <h2 className = "LanguageName">Groovy and Grails</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"#612abc"} completed={65}/>
         </div>
         </div>
 
         <div data-aos = "fade-up-right">
         <h2 className = "LanguageName">SQL</h2>
         <div className = "progressBar">
-            <ProgressBar bgColor={"green"} completed={80}/>
-        </div>
-        </div>
-        
-        <div data-aos = "zoom-in">
-        <h2 className = "LanguageName">ReactJS</h2>
-        <div className = "progressBar">
-            <ProgressBar bgColor={"#612abc"} completed={75}/>
+            <ProgressBar bgColor={"green"} completed={75}/>
         </div>
         </div>
 
+        <div data-aos = "fade-up-left">
+        <h2 className = "LanguageName">Oracle Database</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"green"} completed={75}/>
+        </div>
+        </div>
+
+        <div data-aos = "zoom-in">
+        <h2 className = "LanguageName">MongoDB</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"green"} completed={60}/>
+        </div>
+        </div>
+
+        <div data-aos = "zoom-out">
+        <h2 className = "LanguageName">Version Control (Github, Gitlab, ClearCase)</h2>
+        <div className = "progressBar">
+            <ProgressBar bgColor={"green"} completed={80}/>
+        </div>
+        </div>
 
         </div>
     )
