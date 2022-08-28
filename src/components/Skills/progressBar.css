@@ -28,11 +28,29 @@
     width: 115%;
 }
 
+@media screen and (max-width: 2200px)
+{
+    .progressContainer
+    {
+        height: 250vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .progressContainer
+    {
+        height: 250vh;
+        width: 100%;
+    }
+}
+
 @media screen and (max-width : 768px)
 {
     .progressContainer
     {
-        height: 230vh;
+        height: 240vh;
         width: 100%;
     }
 
@@ -46,7 +64,7 @@
 {
     .progressContainer
     {
-        height: 240vh;
+        height: 250vh;
         width: 100%;
     }
 }
