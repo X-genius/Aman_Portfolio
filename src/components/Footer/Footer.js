@@ -112,7 +112,7 @@ const Footer = () => {
                              <FaLinkedin /> </a></div>
 
                              <div data-aos = "zoom-in" data-aos-delay="300" data-aos-offset = "50">
-                        <a href = "https://www.codechef.com/users/amuninja1">      
+                        <a href = "https://leetcode.com/u/MrGenius/">      
                              <FaCoding /> </a></div>
 
                         <div data-aos = "fade-down" data-aos-delay="600" data-aos-offset = "50">

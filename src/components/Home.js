@@ -164,7 +164,7 @@ const Home = () => {
                     initial = {{opacity : 0}}  
                     animate = {{opacity : 1}} 
                     transition = {{duration : 1}}>
-                        Aman
+                        Aman Baghel
                     </motion.h1>
 
                     <motion.p 
@@ -172,11 +172,10 @@ const Home = () => {
                     initial = "hidden" 
                     animate = "visible" 
                     transition = {{duration : 1}}>
-                        Full Stack Web 
-                        Developer
+                        Frontend Developer
                     </motion.p>
                     
-                    <a href = {pdf} download = "AmanBaghel_Resume">
+                    <a href = {pdf} download = "AmanBaghel-SDE2-Resume">
                     <Button
                      whileHover = {{scale : 1.05}} 
                      whileTap = {{scale : 0.95 , backgroundColor : '#67F6E7' , color : '#000' , border : 'none' }}
