@@ -106,7 +106,7 @@ padding: 2rem;
 position: relative;
 
 ${Image}:nth-child(1){
-  top: 10px;
+  top: 0px;
   left: 100px;
 }
 
