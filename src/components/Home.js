@@ -19,7 +19,7 @@ background : #131313;
 
 const Container = styled.div`
 display : grid;
-grid-template-columns : 1fr 1fr;
+grid-template-columns : 1fr 1.4fr;
 height : 100vh;
 padding : 3rem calc(100vh - 1300px);
 
@@ -107,22 +107,22 @@ position: relative;
 
 ${Image}:nth-child(1){
   top: 10px;
-  left: 10px;
+  left: 100px;
 }
 
 ${Image}:nth-child(2){
    top: 170px;
-   right: 10px; 
+   right: 100px; 
 }
 
 ${Image}:nth-child(3){
-  top: 350px;
-  left: 10px;
+  top: 320px;
+  left: 100px;
 }
 
 ${Image}:nth-child(4){
     bottom: 100px;
-    right: 30px;
+    right: 80px;
 }
 
 @media screen and (max-width : 768px)
