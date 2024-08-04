@@ -18,9 +18,15 @@
 .rhImage,
 .farmerImage,
 .sweetImage,
-.automationImage, .BlogImage,
-.complaintImage , .SquidGameImage, 
-.EcommerceWebImage, .WeatherImage{
+.automationImage,
+.BlogImage,
+.complaintImage,
+.SquidGameImage,
+.EcommerceWebImage,
+.WeatherImage,
+.AIImageGenerator,
+.CryptoStealaerImage,
+.chatGeminiImage {
   width: 420px;
   height: 300px;
 }
@@ -62,7 +68,8 @@
 }
 
 /* Position the front and back side */
-.flip-box-front, .flip-box-back {
+.flip-box-front,
+.flip-box-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -86,23 +93,23 @@
   transform-style: preserve-3d;
 }
 
-.flip-box-back div{
+.flip-box-back div {
   transform-style: preserve-3d;
   padding: 8px;
-  background: linear-gradient(45deg , #fe0061 , #ffeb3b);
+  background: linear-gradient(45deg, #fe0061, #ffeb3b);
   transform: translateZ(100px);
 }
 
-.flip-box-back div h2{
+.flip-box-back div h2 {
   font-size: 20px;
   color: #fff;
 }
 
-.flip-box-back div p{
+.flip-box-back div p {
   font-size: 15px;
 }
 
-.LinksOfProject{
+.LinksOfProject {
   height: 40px;
   width: 90px;
   text-align: center;
@@ -110,7 +117,7 @@
   border-radius: 5px;
 }
 
-.LinksOfProject a{
+.LinksOfProject a {
   text-decoration: none;
   color: #fff;
 }
@@ -127,12 +134,15 @@
   .rhImage,
   .farmerImage,
   .sweetImage,
-  .automationImage, 
+  .automationImage,
   .BlogImage,
   .complaintImage,
-  .SquidGameImage, 
-  .EcommerceWebImage, 
-  .WeatherImage {
+  .SquidGameImage,
+  .EcommerceWebImage,
+  .WeatherImage,
+  .AIImageGenerator,
+  .CryptoStealaerImage,
+  .chatGeminiImage {
     width: 100%;
     height: 300px;
   }
@@ -142,6 +152,4 @@
     width: 100%;
     height: 300px;
   }
-
-  
 }
