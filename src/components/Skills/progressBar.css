@@ -25,27 +25,9 @@
   width: 115%;
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media only screen and (min-width: 400px), only screen and (min-height: 852px) {
   .progressContainer {
-    height: 150vh;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .progressContainer {
-    height: 240vh;
-    width: 100%;
-  }
-
-  .progressBar {
-    width: 95%;
-  }
-}
-
-@media screen and (max-width: 440px) {
-  .progressContainer {
-    height: 190vh;
+    height: 175vh;
     width: 100%;
   }
 }
