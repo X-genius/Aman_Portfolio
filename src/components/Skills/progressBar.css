@@ -1,52 +1,51 @@
-.progressContainer
-{
-    background: #131313;
-    margin : 0;
-    padding : 0;
-    height: 180vh;
+.progressContainer {
+  background: #131313;
+  margin: 0;
+  padding: 0;
+  height: 180vh;
+  width: 100%;
+}
+
+.skillName {
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0px;
+  margin-bottom: 20px;
+}
+
+.LanguageName {
+  font-size: 20px;
+  color: #fff;
+  padding-left: 52px;
+}
+
+.progressBar {
+  width: 115%;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .progressContainer {
+    height: 150vh;
     width: 100%;
+  }
 }
 
-.skillName
-{
-    font-size: 60px;
-    font-weight: 600;
-    text-align: center;
-    color: #fff;
-    padding: 40px 0px;
-    margin-bottom: 20px;
+@media screen and (max-width: 768px) {
+  .progressContainer {
+    height: 240vh;
+    width: 100%;
+  }
+
+  .progressBar {
+    width: 95%;
+  }
 }
 
-.LanguageName{
-    font-size: 20px;
-    color: #fff;
-    padding-left : 52px;
-}
-
-.progressBar
-{
-    width: 115%;
-}
-
-@media screen and (max-width : 768px)
-{
-    .progressContainer
-    {
-        height: 240vh;
-        width: 100%;
-    }
-
-    .progressBar
-    {
-        width: 95%;
-    }
-}
-
-@media screen and (max-width : 440px)
-{
-    .progressContainer
-    {
-        height: 190vh;
-        width: 100%;
-    }
+@media screen and (max-width: 440px) {
+  .progressContainer {
+    height: 190vh;
+    width: 100%;
+  }
 }
