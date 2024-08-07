@@ -54,6 +54,7 @@ const ColumnLeft = styled.div`
 
   @media screen and (max-width: 768px) {
     padding: 0rem 5rem;
+    align-items: center;
     h1 {
       font-size: 2.2rem;
       margin-bottom: 0rem;
