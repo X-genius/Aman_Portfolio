@@ -15,7 +15,7 @@ const Section = styled.section`
   background: #131313;
 
   @media screen and (max-width: 768px) {
-    height: 50vh;
+    height: 60vh;
   }
 `;
 
