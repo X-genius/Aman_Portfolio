@@ -45,7 +45,7 @@ const aboutUs = () => {
               Tegh Bahadur Institute of Technology with a commendable CGPA of{' '}
               <strong>9.32</strong>. I am passionate about{' '}
               <strong>Frontend Development</strong> with over{' '}
-              <strong>3 years and 2 months of experience</strong> as a{' '}
+              <strong>3+ years of experience</strong> as a{' '}
               <strong>Software Engineer</strong>, I am currently employed at{' '}
               <strong>Blue Yonder</strong> in the role of{' '}
               <strong>Software Engineer</strong>.{' '}
