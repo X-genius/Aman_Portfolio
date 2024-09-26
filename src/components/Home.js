@@ -166,7 +166,7 @@ const Home = () => {
             animate='visible'
             transition={{ duration: 1 }}
           >
-            Frontenddd Developer
+            Frontend Developer
           </motion.p>
 
           <a href={pdf} download='AmanBaghel-SDE2-Resume'>
